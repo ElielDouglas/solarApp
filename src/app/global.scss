@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.controls {
+  padding: 1em;
+  width: 20%;
+  max-height: 700vh;
+  overflow: hidden;
+  background-color: #eeeeee;
+  color: #061819;
+  border-top-right-radius: 20px;
+}
+
+.solar-info {
+  padding: 1em;
+  width: 20%;
+  background-color: #848BA8;
+  color: #061819;
+}
+
+.controls h1 {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 32px;
+  text-align: center;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.map-container {
+  width: 100%;
+
+  height: 100vh;
+}
+
+.map {
+  width: 80%;
+  height: 110vh;
+}
+
+.combobox-input {
+  border-radius: 10px;
+  margin-left: 10px;
+  border: none;
+  font-size: 20px;
+  width: 90%;
+  padding: 14px;
+  margin-bottom: 20px;
+}
