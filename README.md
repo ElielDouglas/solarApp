@@ -18,17 +18,10 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Documentação 
+Projeto criado em NextJs para consumo e exibição de dados baseados em mapa do google maps.
+API rest consumida via fetch, listando dados em tela.
+Integrado com a biblioteca @react-google-maps/api, envolvendo busca global, podendo fazer a busca de qualquer endereço existente, que ele irá apontar no mapa interativo e , listagem dinamica com os resultados da API teste disponibilizada no desafio.
 
-To learn more about Next.js, take a look at the following resources:
+Integrado com a API de potencial solar, contendo validações de erros, quando a longitude e latitude não forem encontradas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
